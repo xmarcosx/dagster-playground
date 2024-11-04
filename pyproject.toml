@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dagster-playground"
+version = "0.1.0"
+description = ""
+authors = ["Marcos Alcozer <marcos@alcozer.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+dagster = "1.9.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+dagster-webserver = "1.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
